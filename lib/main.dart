@@ -64,18 +64,6 @@ class _HomePageState extends ConsumerState<HomePage> {
   AudioPlayer audioPlayer = AudioPlayer();
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      // var r = Navigator.push(
-      //     context,
-      //     MaterialPageRoute(
-      //       builder: (context) => const HomePage(),
-      //     ));
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
     var search = ref.watch(searchProvider);
     return Scaffold(

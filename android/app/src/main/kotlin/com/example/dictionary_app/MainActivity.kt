@@ -1,4 +1,4 @@
-package com.example.dictionary_app
+package io.dictionary.ruchit
 
 import io.flutter.embedding.android.FlutterActivity
 
